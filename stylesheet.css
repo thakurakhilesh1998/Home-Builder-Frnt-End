@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+.header
+{
+ 
+}
+
+.logo
+{
+    font-size: 30px;
+    font-weight: 800;
+    font-family :poppins, Arial, sans-serif;
+    line-height:30px;
+}
+.navigation-bar
+{
+    background-color: #00043c;
+}
+a
+
+.navbar-items li
+{
+    margin-left: 10px;
+}
+.navbar-items li a
+{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+@media (max-width: 576px) {
+.slide
+    {
+        display: none;
+    }
+    
+  }    
+    @media (max-width:576px)
+    {
+        .logo
+        {
+            font-size: 20px;
+        }
+        
+    }
+
+@media (max-width:576px)
+{
+    .services
+    {
+        margin-left: 10%;
+    }
+}
+.list-services a
+{
+    
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+}
+.vision
+{
+    padding: 0px!important;
+}
+.mission
+{
+    float: left;
+    border: 0.5px solid grey;
+    padding: 8px 12px 8px 12px;
+    
+}
+.mission1
+{
+    background-color: #fdbe33;
+}
+.mission a
+{
+    text-decoration: none;
+}
